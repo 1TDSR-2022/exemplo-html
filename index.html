@@ -3,15 +3,39 @@
 <!DOCTYPE html>
 <!-- Elemento ou TAG raiz -->
 <html lang="pt-br" dir="ltr">
-    <head>
+    <head><!--Parte de "configuração" do html-->
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Página de INFO</title>
     </head>
-    <body>
+    <body><!--Parte "fisica" do html-->
         <div>
-            <nav>
-                
+            <nav><!--navigation-->
+               <ul type="circle"> <!--unordered list-->
+                   <li>item - 1</li> <!--list item-->
+                   <li>item - 2</li>
+                   <li>item - 3</li>
+               </ul>
+
+               <div>
+                    <ul>
+                        <li><a href="pagina2.html" target="_blank">Pagina 2</a></li> 
+                        <li><a href="http://www.fiap.com.br"target="_blank">FIAP</a></li>
+                        <li><a href="http://www.google.com.br"target="_blank">Google</a></li>
+                        <!--Tag "a" é tag anchor, que serve pra fazer hyperlink-->
+                        <!--"href" signfica hyper reference, para criar um hyperlink
+                        para um hypertexto-->
+                    </ul>
+               </div>
+
+               
+               <!--ul>li*3 - gera isso: -->
+               <ul>
+                   <li></li>
+                   <li></li>
+                   <li></li>
+               </ul>
+               <!--Até aqui, util pra repetição, como listas grandes por ex.-->
             </nav>
         </div>
     </body>
