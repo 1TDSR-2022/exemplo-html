@@ -2,7 +2,7 @@
 <!-- Informa ao Browser a versão do HTML que está sendo carregada. -->
 <!doctype html> <!-- tipo do documento do html-->
 <!-- Elemento ou TAG raiz -->
-<html lang="pt-br" dir="ltr"> <!-- linguagem do texto da pagina e tipo-->
+<html lang="pt-br" dir="ltr"> <!-- lang linguagem do texto da pagina, tipo e atributo, dir escrito da esquerda para a direita-->
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,9 +10,27 @@
     </head>
     <body>
         <div>
-            <nav> <!-- criar menus para navegação na pagina-->
+            <nav> <!-- criar menus, links para navegação na pagina-->
+                <ul type="circle">  <!-- lista sem ordenação-->
+                    <li>Item - 1</li><!-- list item-->
+                    <li>Item - 2</li>
+                    <li>Item - 3</li>
+                </ul>
+
+                <!-- ul>li*3 atalho para a criação de lista direta.-->
 
             </nav>  
+        </div>
+
+        <!-- Criem uma div com uma lista com 3 itens e cada item deve ter uma tag a dentro de si
+        div>ul>li*3>a-->
+
+        <div>
+            <ul>
+                <li><a href="pagina2.html" target="_blank">PÁGINA-2</a></li>
+                <li><a href="http://www.fiap.com.br">FIAP</a></li>
+                <li><a HREF="http://www.google.com.br">GOOGLE</a></li>
+            </ul>
         </div>
     </body>
 </html>
